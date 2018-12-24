@@ -6,7 +6,7 @@ urls = (
 
 class index:
     def GET(self):
-        return "Hello world from CentOS7 in Docker!"
+        return "Fucking awesome. It's work"
 
 if __name__ == "__main__": 
     app = web.application(urls, globals())
